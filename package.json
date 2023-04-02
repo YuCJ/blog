@@ -1,8 +1,8 @@
 {
-  "name": "cj-s-blog",
+  "name": "cj-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "cj-s-blog",
+  "description": "cj-blog",
   "author": "yucj",
   "keywords": [
     "gatsby"
