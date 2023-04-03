@@ -15,37 +15,58 @@
     "clean": "gatsby clean",
     "lint": "eslint ./src/**/*.js"
   },
-  "dependencies": {
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react-server-dom-webpack>react": "18"
+      }
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@gatsbyjs/reach-router": "^2.0.1",
     "@mdx-js/react": "^2.3.0",
     "@vanilla-extract/css": "^1.11.0",
     "@vanilla-extract/webpack-plugin": "^2.2.0",
-    "gatsby": "^5.8.1",
-    "gatsby-plugin-image": "^3.8.0",
-    "gatsby-plugin-manifest": "^5.8.0",
-    "gatsby-plugin-mdx": "^5.8.0",
-    "gatsby-plugin-sharp": "^5.8.1",
-    "gatsby-plugin-sitemap": "^6.8.0",
-    "gatsby-plugin-vanilla-extract": "^4.0.1",
-    "gatsby-source-filesystem": "^5.8.0",
-    "gatsby-transformer-sharp": "^5.8.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0",
+    "babel-eslint": "^10.0.0",
+    "deepmerge": "^4.3.1",
     "eslint-config-prettier": "^4.3.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
+    "eslint": "^5.16.0",
+    "gatsby-core-utils": "^4.8.0",
+    "gatsby-link": "^5.8.0",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-manifest": "^5.8.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-sharp": "^5.8.1",
+    "gatsby-plugin-sitemap": "^6.8.0",
+    "gatsby-plugin-vanilla-extract": "^4.0.1",
+    "gatsby-react-router-scroll": "^6.8.0",
+    "gatsby-script": "^2.8.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "gatsby": "^5.8.1",
+    "graphql": "^16.0.0",
     "html-webpack-plugin": "^4.5.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
-    "prettier": "^1.18.2"
+    "mitt": "^3.0.0",
+    "node-html-parser": "^6.1.5",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.8.1",
+    "react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "shallow-compare": "^1.2.2",
+    "typescript": "^2.8.0",
+    "webpack": "^5.20.2"
   },
   "husky": {
     "hooks": {
